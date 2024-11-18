@@ -14,7 +14,7 @@ class SolidusPromotions::Promotions::Index::Component < SolidusAdmin::UI::Pages:
   end
 
   def row_url(promotion)
-    solidus_promotions.admin_promotion_path(promotion)
+    solidus_promotions.edit_admin_promotion_path(promotion)
   end
 
   def page_actions
